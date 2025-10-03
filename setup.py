@@ -24,7 +24,9 @@ OPTIONS = {
         'NSHumanReadableCopyright': "Personal Use",
         'LSUIElement': True,  # Hide from dock (menu bar only app)
     },
-    'packages': ['rumps', 'AppKit'],
+    'packages': ['rumps', 'AppKit', 'Foundation', 'objc'],
+    'includes': ['jaraco.text', 'packaging', 'pkg_resources'],
+    'excludes': ['tkinter', 'matplotlib'],
 }
 
 setup(

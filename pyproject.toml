@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "jaraco-text>=4.0.0",
     "pillow>=11.3.0",
     "pyobjc-framework-avfoundation>=11.1",
     "pyobjc-framework-cocoa>=11.1",
