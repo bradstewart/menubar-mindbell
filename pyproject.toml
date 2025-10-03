@@ -1,0 +1,12 @@
+[project]
+name = "mindbell"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pillow>=11.3.0",
+    "pyobjc-framework-avfoundation>=11.1",
+    "pyobjc-framework-cocoa>=11.1",
+    "rumps>=0.4.0",
+]
